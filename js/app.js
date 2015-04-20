@@ -138,23 +138,22 @@ function answerCheck() {
 function finalReview() {
 	if ( currentScore == 5 ) {
 		console.log("You have 5 stars");
-		$(".results .container").append("<article><h4>Score</h4></h3>" + currentScore + " / 5</h3></article><article><p><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i></p><p>\u201C A masterful performance that will live on through the ages.\u201D</p><h4>Sight & Sound</h4></article>");
+		$(".results .container").append("<article><h4>Score</h4>" + currentScore + " / 5</article><article><p><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i></p><p>\u201C A masterful performance that will live on through the ages.\u201D</p><h4>Sight & Sound</h4></article>");
 	} 
 	else if ( currentScore == 4 ) {
-		$(".results .container").append("<article><h4>Score</h4></h3>" + currentScore + " / 5</h3></article><article><p><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i></p><p>\u201C A great debut performance that promises much in the years to come.\u201D</p><h4>Sight & Sound</h4></article>");
-		$(".results .container").append("<article><h4>Score</h4></h3>" + currentScore + " / 5</h3></article><article><p><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i></p><p>\u201C A great debut performance from " + userName +".\u201D</p><h4>Sight & Sound</h4></article>");
+		$(".results .container").append("<article><h4>Score</h4>" + currentScore + " / 5</article><article><p><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i></p><p>\u201C A great debut performance that promises much in the years to come.\u201D</p><h4>Sight & Sound</h4></article>");
 	}
 	else if ( currentScore == 3 ) {
-		$(".results .container").append("<article><h4>Score</h4></h3>" + currentScore + " / 5</h3></article><article><p><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i></p><p>\u201C A decent but uneven performance that hints at a lot more potential.\u201D</p><h4>Sight & Sound</h4></article>");
+		$(".results .container").append("<article><h4>Score</h4>" + currentScore + " / 5</article><article><p><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i></p><p>\u201C A decent but uneven performance that hints at a lot more potential.\u201D</p><h4>Sight & Sound</h4></article>");
 	}
 	else if ( currentScore == 2 ) {
-		$(".results .container").append("<article><h4>Score</h4></h3>" + currentScore + " / 5</h3></article><article><p><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i></p><p>\u201C A bad performance but some glimmers of talent on show.\u201D</p><h4>Sight & Sound</h4></article>");
+		$(".results .container").append("<article><h4>Score</h4>" + currentScore + " / 5</article><article><p><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i></p><p>\u201C A bad performance but some glimmers of talent on show.\u201D</p><h4>Sight & Sound</h4></article>");
 	}
 	else if ( currentScore == 1 ) {
-		$(".results .container").append("<article><h4>Score</h4></h3>" + currentScore + " / 5</h3></article><article><p><i class='fa fa-star'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i></p><p>\u201C A terrible performance. But not terrible enough for a Razzie. In some ways this failure at being completely terrible makes it worse.\u201D</p><h4>Sight & Sound</h4></article>");
+		$(".results .container").append("<article><h4>Score</h4>" + currentScore + " / 5</article><article><p><i class='fa fa-star'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i></p><p>\u201C A terrible performance. But not terrible enough for a Razzie. In some ways this failure at being completely terrible makes it worse.\u201D</p><h4>Sight & Sound</h4></article>");
 	}
 	else if ( currentScore == 0 ) {
-		$(".results .container").append("<article><h4>Score</h4></h3>" + currentScore + " / 5</h3></article><article><p><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i></p><p>\u201C A performance so stupefyingly bad comes along only once in a lifetime. This one has Razzie award winner written all over it.\u201D</p><h4>Sight & Sound</h4></article>");
+		$(".results .container").append("<article><h4>Score</h4>" + currentScore + " / 5</article><article><p><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i></p><p>\u201C A performance so stupefyingly bad comes along only once in a lifetime. This one has Razzie award winner written all over it.\u201D</p><h4>Sight & Sound</h4></article>");
 	}
 }
 
